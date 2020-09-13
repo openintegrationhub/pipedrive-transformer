@@ -1,0 +1,49 @@
+{
+  "name": "pipedrive-transformer",
+  "version": "1.0.0",
+  "description": "This is a transformer for the Pipedrive component",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/@openintegrationhub/ferryman/runGlobal.js",
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openintegrationhub/pipedrive-transformer.git"
+  },
+  "engines": {
+    "node": "8.16.2",
+    "npm": ">=5.4"
+  },
+  "keywords": [
+    "jsonata",
+    "integration",
+    "oih-transformer",
+    "pipedrive",
+    "openintegrationhub"
+  ],
+  "dependencies": {
+    "@elastic.io/jsonata-moment": "1.1.2",
+    "@openintegrationhub/ferryman": "^1.1.2",
+    "elasticio-node": "0.0.9",
+    "jsonata": "^1.5.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-json": "^1.2.1",
+    "eslint-plugin-mocha": "^5.2.0",
+    "mocha": "^8.1.1"
+  },
+  "author": "Ioannis Lafiotis",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/openintegrationhub/pipedrive-transformer/issues"
+  },
+  "homepage": "https://github.com/openintegrationhub/pipedrive-transformer#readme"
+}
